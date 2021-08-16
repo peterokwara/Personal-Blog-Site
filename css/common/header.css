@@ -25,6 +25,14 @@
   justify-content: space-between;
 }
 
+.blog-name {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+}
+
 .home {
   text-align: center;
   text-decoration: none;
@@ -32,6 +40,7 @@
   font-weight: 700;
   font-size: 15px;
   color: black;
+  padding-right: 10px;
 }
 
 .about {
