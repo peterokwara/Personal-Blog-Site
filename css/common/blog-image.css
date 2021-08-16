@@ -1,0 +1,7 @@
+.blog-image {
+  padding-top: 20px;
+  display: flex;
+  min-width: 100%;
+  grid-area: 1/1/1/1;
+  justify-content: center;
+}

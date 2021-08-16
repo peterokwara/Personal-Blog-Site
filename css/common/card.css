@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 300px;
+  box-sizing: border-box;
+  margin: 1rem 0.25em;
+}
+
+.card-one-link,
+.card-two-link,
+.card-three-link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  flex-wrap: wrap;
+}
+
+img {
+  display: block;
+  border: 0;
+  width: 100%;
+  height: auto;
+}

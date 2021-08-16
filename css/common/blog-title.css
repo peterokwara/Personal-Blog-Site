@@ -1,0 +1,9 @@
+.blog-title {
+  display: flex;
+  max-height: 100%;
+  grid-area: 2/1/2/1;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  color: black;
+}
