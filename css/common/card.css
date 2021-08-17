@@ -35,7 +35,9 @@ img {
   height: auto;
 }
 
-.card-one-button, .card-two-button, .card-three-button{
+.card-one-button,
+.card-two-button,
+.card-three-button {
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -48,8 +50,10 @@ img {
   text-decoration: none;
 }
 
-button {
-  background-color: #d1f1ff; /* Green */
+.card-one-link > button,
+.card-two-link > button,
+.card-three-link > button {
+  background-color: #d1f1ff;
   border: none;
   color: black;
   padding: 15px 32px;
