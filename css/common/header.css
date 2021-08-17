@@ -1,8 +1,8 @@
 .header {
   display: grid;
   grid-area: 1/1/1/1;
-  padding: 10px;
-  border-bottom: 1px solid black;
+  padding: 20px;
+  background-color: #ccb9bc;
 }
 
 .header-inner {
@@ -27,18 +27,18 @@
 
 .blog-name {
   text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
   color: black;
 }
 
 .home {
   text-align: center;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
   color: black;
   padding-right: 10px;
 }
@@ -46,9 +46,9 @@
 .about {
   text-align: center;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
   color: black;
   padding-right: 10px;
 }
