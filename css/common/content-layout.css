@@ -5,6 +5,7 @@
   grid-template-rows: 700px 100px 1fr;
   padding-left: 20px;
   padding-right: 20px; */
+  grid-area: c;
   padding-left: 20px;
   padding-right: 20px;
 }

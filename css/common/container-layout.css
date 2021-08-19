@@ -1,5 +1,10 @@
 .container {
-  /* display: grid;
+  display: grid;
   height: calc(100vh);
-  grid-template-rows: 60px 1fr 80px; */
+  grid-template-rows: 80px 1fr 80px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "h h h h"
+    "c c c c"
+    "f f f f ";
 }

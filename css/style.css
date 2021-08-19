@@ -22,6 +22,7 @@
 .content {
   display: grid;
   height: 100%;
+  grid-area: c;
   /* grid-area: 2/1/2/1; */
   /* grid-template-rows: 400px 1fr; */
   padding-left: 20px;
