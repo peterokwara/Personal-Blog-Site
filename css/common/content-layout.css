@@ -1,8 +1,10 @@
 .content {
-  display: grid;
+  /* display: grid;
   height: 100%;
   grid-area: 2/1/2/1;
   grid-template-rows: 700px 100px 1fr;
+  padding-left: 20px;
+  padding-right: 20px; */
   padding-left: 20px;
   padding-right: 20px;
 }
