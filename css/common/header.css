@@ -1,6 +1,5 @@
 .header {
   display: grid;
-  /* grid-area: 1/1/1/1; */
   grid-area: h;
   padding: 20px;
   background-color: #ccb9bc;
@@ -61,4 +60,13 @@
 
 .instagram-link {
   padding-left: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    display: grid;
+    grid-area: h;
+    background-color: #ccb9bc;
+    grid-column: 1/-1;
+  }
 }

@@ -23,19 +23,19 @@
   display: grid;
   height: 100%;
   grid-area: c;
-  /* grid-area: 2/1/2/1; */
-  /* grid-template-rows: 400px 1fr; */
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.content-title {
-  /* grid-area: 1/1/1/1; */
-}
-
 .content-cards {
-  /* grid-area: 2/1/2/1; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    grid-area: c;
+    grid-column: 1/9;
+  }
 }
